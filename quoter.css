@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  margin: 0; padding: 0;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 400%;
+}
+
+h3 {
+  color: black;
+  font-size: 125%;
+        text-align: center;  
+  }
+
+#quoteArea{
+  text-align: center;
+  font-size: 200%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+}
+
+.right{
+  text-align: right;
+}
+
+#top
+{ width: 100%; height: 768px;
+  background: url(http://www.richardkeightley.com/Images/quotewall.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.section {
+  text-align: center;
+}
+
+button {
+  font-size: 30px;
+  font-weight: 400;
+  width: 90%;
+  text-align: center;
+  background-color: #659ec7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+button:hover{
+  background-color: #87afc7;
+}
